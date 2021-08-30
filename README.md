@@ -15,9 +15,10 @@ Using these commands should clone this repo and then fetch all the other repos a
 
 Here is a list of the repos:
 
-  - Maths3D
-  - Compression
   - Backups
+  - Compression
+  - DataStructures
+  - Maths3D
   - VimSettings
 
 

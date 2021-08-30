@@ -1,0 +1,15 @@
+[submodule "Backups"]
+	path = Backups
+	url = https://github.com/JohnRyland/Backups.git
+[submodule "Compression"]
+	path = Compression
+	url = https://github.com/JohnRyland/Compression.git
+[submodule "DataStructures"]
+	path = DataStructures
+	url = https://github.com/JohnRyland/DataStructures.git
+[submodule "Maths3D"]
+	path = Maths3D
+	url = https://github.com/JohnRyland/Maths3D.git
+[submodule "VimSettings"]
+	path = VimSettings
+	url = https://github.com/JohnRyland/VimSettings.git
