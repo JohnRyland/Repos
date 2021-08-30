@@ -13,4 +13,11 @@ Using these commands should clone this repo and then fetch all the other repos a
   git submodule update --init --recursive
 ```
 
+Here is a list of the repos:
+
+  - Maths3D
+  - Compression
+  - Backups
+  - VimSettings
+
 
