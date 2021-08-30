@@ -4,8 +4,10 @@ function status
 {
   pushd ${1} > /dev/null
   URL=$(git config --get remote.origin.url)
-  BRANCH=$(git branch | tail -n 1) # rev-parse --abbrev-ref HEAD)
-  printf '%-50s %-12s %-40s\n' "$(pwd)" "${BRANCH}" "${URL}"
+  # BRANCH=$(git branch | tail -n 1)
+  # BRANCH=$(git rev-parse --abbrev-ref HEAD)
+  BRANCH=$(git branch -r --points-at HEAD | tail -n 1)
+  printf '%-50s %-20s %-40s\n' "$(pwd)" "${BRANCH}" "${URL}"
   git status -s
   popd > /dev/null
 }
