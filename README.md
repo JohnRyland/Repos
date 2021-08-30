@@ -12,6 +12,7 @@ Using these commands should clone this repo and then fetch all the other repos a
 
 ```
   git clone https://github.com/JohnRyland/Repos.git
+  cd Repos
   git submodule update --init --recursive
 ```
 
