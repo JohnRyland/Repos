@@ -13,3 +13,6 @@
 [submodule "VimSettings"]
 	path = VimSettings
 	url = https://github.com/JohnRyland/VimSettings.git
+[submodule "GenericMake"]
+	path = GenericMake
+	url = https://github.com/JohnRyland/GenericMake.git
