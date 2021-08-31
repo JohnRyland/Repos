@@ -21,6 +21,7 @@ Here is a list of the repos at the moment:
   - Backups
   - Compression
   - DataStructures
+  - GenericMake
   - Maths3D
   - VimSettings
 
