@@ -16,3 +16,6 @@
 [submodule "GenericMake"]
 	path = GenericMake
 	url = https://github.com/JohnRyland/GenericMake.git
+[submodule "RealTimeScheduler"]
+	path = RealTimeScheduler
+	url = https://github.com/JohnRyland/RealTimeScheduler.git
