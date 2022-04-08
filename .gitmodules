@@ -1,21 +1,28 @@
 [submodule "Backups"]
 	path = Backups
 	url = https://github.com/JohnRyland/Backups.git
+  branch = v1.0
 [submodule "Compression"]
 	path = Compression
 	url = https://github.com/JohnRyland/Compression.git
+	branch = main
 [submodule "DataStructures"]
 	path = DataStructures
 	url = https://github.com/JohnRyland/DataStructures.git
+	branch = main
 [submodule "Maths3D"]
 	path = Maths3D
 	url = https://github.com/JohnRyland/Maths3D.git
+	branch = main
 [submodule "VimSettings"]
 	path = VimSettings
 	url = https://github.com/JohnRyland/VimSettings.git
+	branch = main
 [submodule "GenericMake"]
 	path = GenericMake
 	url = https://github.com/JohnRyland/GenericMake.git
+	branch = main
 [submodule "RealTimeScheduler"]
 	path = RealTimeScheduler
 	url = https://github.com/JohnRyland/RealTimeScheduler.git
+	branch = main
