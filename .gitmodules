@@ -1,7 +1,7 @@
 [submodule "Backups"]
 	path = Backups
 	url = https://github.com/JohnRyland/Backups.git
-  branch = v1.0
+	branch = v1.0
 [submodule "Compression"]
 	path = Compression
 	url = https://github.com/JohnRyland/Compression.git
