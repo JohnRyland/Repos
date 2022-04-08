@@ -11,9 +11,9 @@ once I am at the point of having stable versions of each.
 Using these commands should clone this repo and then fetch all the other repos as submodules:
 
 ```
-  git clone https://github.com/JohnRyland/Repos.git
-  cd Repos
-  git submodule update --init --recursive
+  git clone https://github.com/JohnRyland/Repos.git GitHub
+  cd GitHub
+  ./update.sh
 ```
 
 Here is a list of the repos at the moment:
@@ -23,12 +23,13 @@ Here is a list of the repos at the moment:
   - DataStructures
   - GenericMake
   - Maths3D
+  - RealTimeScheduler
   - VimSettings
 
 I plan to add a few scripts in here too that make working with the repos together a bit easier. At the moment
-there is just one tool script:
+there is just two tool scripts:
 
   - status.sh
-
+  - update.sh
 
 
