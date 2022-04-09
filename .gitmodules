@@ -26,3 +26,7 @@
 	path = RealTimeScheduler
 	url = https://github.com/JohnRyland/RealTimeScheduler.git
 	branch = main
+[submodule "TestFramework"]
+	path = TestFramework
+	url = https://github.com/JohnRyland/TestFramework.git
+	branch = main
