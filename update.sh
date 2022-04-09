@@ -10,6 +10,8 @@ function update
   git branch -u origin/${BRANCH} ${BRANCH}
   git fetch
   git pull origin ${BRANCH}
+  # Uncomment if you want to force the submodules on to the branch they point at
+  # git checkout ${BRANCH}
   popd > /dev/null
 }
 
