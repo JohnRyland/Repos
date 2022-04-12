@@ -30,3 +30,6 @@
 	path = TestFramework
 	url = https://github.com/JohnRyland/TestFramework.git
 	branch = main
+[submodule "Documentation"]
+	path = Documentation
+	url = https://github.com/JohnRyland/Documentation.git
