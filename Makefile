@@ -1,16 +1,14 @@
+#
+#  Bootstrap Makefile
+#  (C) Copyright 2022
+#  John Ryland
+#
 
+all: release
 
-SUBDIRS=$(patsubst %/Makefile,%/fake_target,$(wildcard */Makefile))
+.modules/GenericMake/Generic.mak:
+	@echo "Fetching GenericMake"
+	@git clone https://github.com/JohnRyland/GenericMake.git ./.modules/GenericMake
 
-
-all: subdirs
-
-
-subdirs: $(SUBDIRS)
-
-
-%/fake_target:
-	@echo Building $(patsubst %/fake_target,%,$@)
-	@make -C $(patsubst %/fake_target,%,$@)
-
+-include .modules/GenericMake/Generic.mak
 
